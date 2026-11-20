@@ -1,4 +1,3 @@
-
 class Obscura < Formula
   desc "Headless browser for AI agents and web scraping"
   homepage "https://github.com/h4ckf0r0day/obscura"
