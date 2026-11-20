@@ -2,8 +2,7 @@
 class Obscura < Formula
   desc "Headless browser for AI agents and web scraping"
   homepage "https://github.com/h4ckf0r0day/obscura"
-  version "0.2.7"
-  url "https://github.com/h4ckf0r0day/obscura/releases/download/v#{version}/obscura-aarch64-macos-stealth.tar.gz"
+  url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.7/obscura-aarch64-macos-stealth.tar.gz"
   sha256 "3b05ebcd4755a325be224992fad6a038d86f7e5ab483e4c781f14de06cab973f"
   license "Apache-2.0"
 
@@ -20,4 +19,3 @@ class Obscura < Formula
     assert_match version.to_s, shell_output("#{bin}/obscura --version")
   end
 end
-
