@@ -1,4 +1,4 @@
-class Obscura < Formula
+class ObscuraStealth < Formula
   desc "Headless browser for AI agents and web scraping"
   homepage "https://github.com/h4ckf0r0day/obscura"
   url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.7/obscura-aarch64-macos-stealth.tar.gz"
